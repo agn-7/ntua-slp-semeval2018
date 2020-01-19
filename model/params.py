@@ -138,6 +138,7 @@ TASK2_A = {
    "epochs": 50,
     # "embeddings_file": "word2vec_300_6_20_neg",
     "embeddings_file": "pca_applied_on_glove.6B.100d_1",
+    # "embeddings_file": "/content/drive/My Drive/app/sentiment/pca_applied_on_glove.6B.100d_1",
     "embed_dim": 300,
     "embed_finetune": False,
     "embed_noise": 0.2,
