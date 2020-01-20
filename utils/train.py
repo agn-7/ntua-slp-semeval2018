@@ -111,7 +111,7 @@ def load_embeddings(
         word_vectors = model_conf["embeddings_file"]
 
     if embedding_size_auto_detect is not None:
-        word_vectors_size = detect_embedding_dim(word_vectors)  # TODO
+        word_vectors_size = detect_embedding_dim(word_vectors)
     else:
         word_vectors_size = model_conf["embed_dim"]
 
